@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/8980/pexels-photo.jpeg?h=350&auto=compress&cs=tinysrgb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; 
+}
+
+.board {
+  margin: 0 auto;
+  max-width: 90%; 
+}
+
+.board h1 {
+  margin: 20px 0;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px; 
+}
+
+.board .create-column {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px; 
+}
+
+.board .column-container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.board .column-container .column {
+  display: block;
+  margin: 10px;
+  float: left;
+  width: 370px;
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  position: relative; 
+}
+
+.board .column-container .column .column-title {
+  margin: 10px 30px;
+  text-align: right; 
+}
+.board .column-container .column .btn-delete {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  background-color: #F00; 
+}
+
+.board .column-container .column .column-card-list {
+  margin: 20px auto;
+  width: 90%;
+  min-height: 200px;
+  list-style-type: none; 
+}
+
+.board .column-container .column .column-card-list .card {
+  margin: 0 20px 10px 0;
+  position: relative;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align: left;
+  padding: 3px; 
+}
+
+.board .column-container .column .add-card {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px; 
+}
