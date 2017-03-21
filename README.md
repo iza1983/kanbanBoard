@@ -1,1 +1,1 @@
-# kodilla-10.6
+# kodilla-10.6 - Własne Trello/Tablica kanban
