@@ -30,7 +30,8 @@ body {
 .board .create-column {
   height: 50px;
   width: 200px;
-  border-radius: 5px; 
+  border-radius: 5px;
+  border-style: none;
 }
 
 .board .column-container {
@@ -63,7 +64,9 @@ body {
   bottom: 10px;
   right: 10px;
   border-radius: 5px;
-  background-color: #F00; 
+  background-color: #F00;
+  color: white;
+  border-style: none;
 }
 
 .board .column-container .column .column-card-list {
@@ -86,5 +89,6 @@ body {
 .board .column-container .column .add-card {
   height: 30px;
   width: 100px;
-  border-radius: 5px; 
+  border-radius: 5px;
+  border-style: none;
 }
